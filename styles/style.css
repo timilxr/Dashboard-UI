@@ -1,0 +1,132 @@
+.cover{
+    position: relative;
+}
+.sidebar{
+    min-height: 100vh;
+    position: fixed;
+    padding-top: 100px;
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    background-color: rgb(60, 199, 250);
+}
+.sidemenu{
+    width: 12%;
+    margin-left: 4%;
+    padding-top: 100px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    color: rgb(183, 183, 183);
+}
+.my-nav{
+    cursor: pointer;
+}
+.my-nav:hover{
+    color: rgb(78, 78, 78);
+    font-weight: 700;
+}
+.icon{
+    width: 16px;
+}
+.active{
+    border-right: 3px solid rgb(60, 199, 250);
+}
+.main-content{
+    margin-left: auto;
+    width: 84%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.my-table{
+    background-color: white;
+    border: 2px solid rgb(60, 199, 250);
+    /* padding: 20px; */
+}
+.t-head{
+    background-color: aliceblue;
+    color: rgb(159, 158, 158);
+}
+input, select {
+    height: 30px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+}
+h1, a{
+    font-size: large;
+}
+h2{
+    font-size: x-large;
+}
+h3{
+    font-size: large;
+    margin: 0px;
+}
+h4{
+    font-size: medium;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    font-size: small;
+}
+/* .table-responsiveness{
+    width: 100%;
+    overflow-x: scroll;
+} */
+.name{
+    width: 500px;
+    padding-right: 50px;
+}
+.date{
+    width: 250px;
+}
+.role{
+    width: 300px;
+}
+.action{
+    width: 100px;
+}
+.my-row{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.profile{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.profile2{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    /* margin-right: 10px; */
+}
+.mybtn{
+    border-radius: 10px;
+    color: white;
+    padding: 4px 0px;
+    text-align: center;
+    width: 110px;
+}
+.super{
+    background-color: rgb(255, 39, 39);
+}
+.admin{
+    background-color: rgb(42, 105, 241);
+}
+.hr{
+    background-color: rgb(67, 201, 91);
+}
+.employee{
+    background-color: rgb(217, 217, 217);
+    color: rgb(94, 94, 94);
+
+}
+
+.btn:focus{
+    outline: none !important;
+    border: 0px;
+}

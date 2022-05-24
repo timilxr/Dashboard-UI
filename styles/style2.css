@@ -1,0 +1,223 @@
+.cover {
+    position: relative;
+}
+
+.sidebar {
+    min-height: 100vh;
+    position: fixed;
+    padding-top: 100px;
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    background-color: rgb(60, 199, 250);
+}
+
+.sidemenu {
+    width: 12%;
+    margin-left: 4%;
+    padding-top: 100px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    color: rgb(183, 183, 183);
+}
+
+.my-nav {
+    cursor: pointer;
+}
+
+.my-nav:hover {
+    color: rgb(78, 78, 78);
+    font-weight: 700;
+}
+
+.icon {
+    width: 16px;
+}
+
+.active {
+    border-right: 3px solid rgb(60, 199, 250);
+}
+
+.main-content {
+    margin-left: auto;
+    width: 84%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.my-table {
+    background-color: white;
+    border: 2px solid rgb(60, 199, 250);
+    /* padding: 20px; */
+}
+
+.t-head {
+    background-color: aliceblue;
+    color: rgb(159, 158, 158);
+}
+
+input,
+select {
+    height: 30px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding: 0px 10px !important;
+}
+
+select {
+    padding: 0px 10px !important;
+    /* -moz-appearance: none;
+    -webkit-appearance: none; */
+    /* apperance: none; */
+}
+
+::placeholder {
+    color: black !important;
+}
+
+input[type='checkbox'] {
+    accent-color: black !important;
+}
+
+h1,
+a {
+    margin: 0px;
+    font-size: large;
+}
+
+h2 {
+    font-size: x-large;
+    margin: 0px;
+}
+
+h3 {
+    font-size: large;
+    margin: 0px;
+}
+
+h4 {
+    font-size: medium;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: small;
+}
+
+/* .table-responsiveness{
+    width: 100%;
+    overflow-x: scroll;
+} */
+.name {
+    width: 500px;
+    padding-right: 50px;
+}
+
+.date {
+    width: 250px;
+}
+
+.role {
+    width: 300px;
+}
+
+.action {
+    width: 100px;
+}
+
+.my-row {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.profile2 {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    /* margin-right: 10px; */
+}
+
+.mybtn {
+    border-radius: 10px;
+    color: white;
+    padding: 4px 0px;
+    text-align: center;
+    width: 110px;
+    border: 0px;
+}
+
+.super {
+    background-color: rgb(255, 39, 39);
+}
+
+.admin {
+    background-color: rgb(42, 105, 241);
+}
+
+.hr {
+    background-color: rgb(67, 201, 91);
+}
+
+.employee {
+    background-color: rgb(217, 217, 217);
+    color: rgb(94, 94, 94);
+}
+
+.cancel {
+    background-color: transparent;
+    color: rgb(42, 105, 241);
+}
+
+.btn:focus {
+    outline: none !important;
+    border: 0px;
+}
+
+.mymodal {
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 37, 146, 0.244);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 70%;
+    border: 0px;
+    /* padding: 20px; */
+}
+
+.modal-head {
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.modal-head button {
+    padding: 0px;
+    height: 25px;
+    width: 25px;
+    line-height: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.modal-head button:hover {
+    padding: 5px;
+    font-weight: 600;
+    font-size: large;
+}
